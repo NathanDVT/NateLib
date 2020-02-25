@@ -1,0 +1,6 @@
+framework module Pods_NateLib_Tests {
+  umbrella header "Pods-NateLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

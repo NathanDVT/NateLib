@@ -1,0 +1,16 @@
+PODS:
+  - NateLib (0.1.0)
+
+DEPENDENCIES:
+  - NateLib (from `../`)
+
+EXTERNAL SOURCES:
+  NateLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NateLib: 6161cbdbb24891d98c1c1d1dc3d0e53736b0d78f
+
+PODFILE CHECKSUM: 3434435a3169af742c23067c2f1d8eee8c3186b3
+
+COCOAPODS: 1.8.4

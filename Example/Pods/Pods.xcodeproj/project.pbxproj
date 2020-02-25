@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE4BA84CA7A6E4605100214C35053CC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DB748C5356D7F7F2B7C7564802131 /* ReplaceMe.swift */; };
+		1191768BFB1C9AA35C41CBE4B8436E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1EA87F807E43F0FFD0FB75E6B8E52D72 /* NateLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61182BC39553153289F46248F639F448 /* NateLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72FA4DDC3BA32F88B46550B7979DB953 /* Pods-NateLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 439F33C3FEB36907A876BCACA7C135C3 /* Pods-NateLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731551F217ABCEAD80F4836FBAD1DA25 /* Pods-NateLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF12CD3D9B6B78837E02F6836C441895 /* Pods-NateLib_Example-dummy.m */; };
+		9491402B10B2B05099D4BF26CE9C5287 /* Pods-NateLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAA145D596514DE80FAE438BC919989 /* Pods-NateLib_Tests-dummy.m */; };
+		9DB13836B9DEDD9AFCECA5A7E2F4DFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B17B84A6E81EACD8A27E11E019684603 /* NateLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C7A1522B0AA5A3C9A65B7D43F12822 /* NateLib-dummy.m */; };
+		D3B388B408BE280C3A17858BD3903520 /* Pods-NateLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F3EED61D4E9B6143668A515CC5F6B1 /* Pods-NateLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBAFB2F4A713057300F236F89920BDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B2773C13941704275506D7CC281A0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BDDB391A66ED5240F2D327C3CE6DD9;
+			remoteInfo = "Pods-NateLib_Example";
+		};
+		7499D1EA0761F49DBE8EDC23A54CE0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27C1669F6CBEBE9B3EAA787C5BC33EC;
+			remoteInfo = NateLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219703D41FD8D4FB43F734B655111036 /* NateLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NateLib-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		380EF9002A8C51B96532832C236E1FA2 /* Pods-NateLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NateLib_Example.modulemap"; sourceTree = "<group>"; };
+		3906505DF7F663F98FC2CB5BC41006C4 /* Pods-NateLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NateLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		420F87F8941C841F56F074262FF9E1FF /* NateLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NateLib-Info.plist"; sourceTree = "<group>"; };
+		439F33C3FEB36907A876BCACA7C135C3 /* Pods-NateLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NateLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		44EC90D0CCEB298DB7F62A202F139BB8 /* Pods-NateLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NateLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C882183993980DA4C0C2D2D50C34F1F /* NateLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NateLib.xcconfig; sourceTree = "<group>"; };
+		5151742B5E84731A849DD42DCE186E2C /* NateLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NateLib.framework; path = NateLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528A4D2182802D277845466A76B68153 /* Pods-NateLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NateLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		539028AC4C2E966068ED862EF7911C87 /* Pods_NateLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NateLib_Tests.framework; path = "Pods-NateLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61182BC39553153289F46248F639F448 /* NateLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NateLib-umbrella.h"; sourceTree = "<group>"; };
+		66EA62C381A67AF74A3F87266E4CDF08 /* NateLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NateLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C6A0B1BF122082B8C9702DD9FD0B377 /* Pods-NateLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NateLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		71FD9B6266275FA4D4087C7DAD521491 /* Pods-NateLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NateLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		730F5549C1D2D194D8F578301DCA7F0A /* Pods-NateLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NateLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		738E41205E4EBED2ED7FD819FAA85ADD /* Pods-NateLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NateLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7A6184FE4932DDB0388678516A037463 /* Pods-NateLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NateLib_Example-Info.plist"; sourceTree = "<group>"; };
+		90663E01016B91C40733893234320596 /* Pods-NateLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NateLib_Tests.modulemap"; sourceTree = "<group>"; };
+		98B5C5D01B688DD41C067BE6C9689CEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8DB748C5356D7F7F2B7C7564802131 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NateLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AF12CD3D9B6B78837E02F6836C441895 /* Pods-NateLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NateLib_Example-dummy.m"; sourceTree = "<group>"; };
+		B6C7A1522B0AA5A3C9A65B7D43F12822 /* NateLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NateLib-dummy.m"; sourceTree = "<group>"; };
+		B7F3EED61D4E9B6143668A515CC5F6B1 /* Pods-NateLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NateLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BD01F0564C2DC96522DAD437B8E0E96A /* Pods_NateLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NateLib_Example.framework; path = "Pods-NateLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6C0587839E2FE2454F56273CBB3317 /* Pods-NateLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NateLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C579B1751C04EDF350718BC37F1F866C /* NateLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NateLib.modulemap; sourceTree = "<group>"; };
+		CFAA145D596514DE80FAE438BC919989 /* Pods-NateLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NateLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		E44EFD6F215D8FBFCAC29C1BA46BAD66 /* Pods-NateLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NateLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F151BC577A89051DEEA8D5A26CBDE5A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F9BCDB7519AD3E312A87D0E04E2F2086 /* Pods-NateLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NateLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167F6AB914484BD01EE0433DAE9BBCAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAFB2F4A713057300F236F89920BDA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC20FA9AB1130BF8600870386ED5D154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1191768BFB1C9AA35C41CBE4B8436E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B77F545321E7701DE26707F698F8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB13836B9DEDD9AFCECA5A7E2F4DFE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F0052724C34FB8F7CCE2A230AF7381 /* NateLib */ = {
+			isa = PBXGroup;
+			children = (
+				9E8DB748C5356D7F7F2B7C7564802131 /* ReplaceMe.swift */,
+				3C4DFC9A2B8A975FDDB22D874B42BFBC /* Pod */,
+				AD239D561D2C9208E5DD92F19300754A /* Support Files */,
+			);
+			name = NateLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1A2D7A66679B9262E94150BA5B985102 /* Pods-NateLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				380EF9002A8C51B96532832C236E1FA2 /* Pods-NateLib_Example.modulemap */,
+				BF6C0587839E2FE2454F56273CBB3317 /* Pods-NateLib_Example-acknowledgements.markdown */,
+				E44EFD6F215D8FBFCAC29C1BA46BAD66 /* Pods-NateLib_Example-acknowledgements.plist */,
+				AF12CD3D9B6B78837E02F6836C441895 /* Pods-NateLib_Example-dummy.m */,
+				738E41205E4EBED2ED7FD819FAA85ADD /* Pods-NateLib_Example-frameworks.sh */,
+				7A6184FE4932DDB0388678516A037463 /* Pods-NateLib_Example-Info.plist */,
+				439F33C3FEB36907A876BCACA7C135C3 /* Pods-NateLib_Example-umbrella.h */,
+				F9BCDB7519AD3E312A87D0E04E2F2086 /* Pods-NateLib_Example.debug.xcconfig */,
+				71FD9B6266275FA4D4087C7DAD521491 /* Pods-NateLib_Example.release.xcconfig */,
+			);
+			name = "Pods-NateLib_Example";
+			path = "Target Support Files/Pods-NateLib_Example";
+			sourceTree = "<group>";
+		};
+		3C4DFC9A2B8A975FDDB22D874B42BFBC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				98B5C5D01B688DD41C067BE6C9689CEC /* LICENSE */,
+				66EA62C381A67AF74A3F87266E4CDF08 /* NateLib.podspec */,
+				F151BC577A89051DEEA8D5A26CBDE5A3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C2CB718482ACD240320C2286E4C027B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F0052724C34FB8F7CCE2A230AF7381 /* NateLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9E00A1D5FC0DC3B9DEC70570E56F2D7B /* Pods-NateLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90663E01016B91C40733893234320596 /* Pods-NateLib_Tests.modulemap */,
+				730F5549C1D2D194D8F578301DCA7F0A /* Pods-NateLib_Tests-acknowledgements.markdown */,
+				44EC90D0CCEB298DB7F62A202F139BB8 /* Pods-NateLib_Tests-acknowledgements.plist */,
+				CFAA145D596514DE80FAE438BC919989 /* Pods-NateLib_Tests-dummy.m */,
+				6C6A0B1BF122082B8C9702DD9FD0B377 /* Pods-NateLib_Tests-Info.plist */,
+				B7F3EED61D4E9B6143668A515CC5F6B1 /* Pods-NateLib_Tests-umbrella.h */,
+				3906505DF7F663F98FC2CB5BC41006C4 /* Pods-NateLib_Tests.debug.xcconfig */,
+				528A4D2182802D277845466A76B68153 /* Pods-NateLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-NateLib_Tests";
+			path = "Target Support Files/Pods-NateLib_Tests";
+			sourceTree = "<group>";
+		};
+		AD239D561D2C9208E5DD92F19300754A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C579B1751C04EDF350718BC37F1F866C /* NateLib.modulemap */,
+				4C882183993980DA4C0C2D2D50C34F1F /* NateLib.xcconfig */,
+				B6C7A1522B0AA5A3C9A65B7D43F12822 /* NateLib-dummy.m */,
+				420F87F8941C841F56F074262FF9E1FF /* NateLib-Info.plist */,
+				219703D41FD8D4FB43F734B655111036 /* NateLib-prefix.pch */,
+				61182BC39553153289F46248F639F448 /* NateLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NateLib";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C99B232CCF5662E1EED939723588F5BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5151742B5E84731A849DD42DCE186E2C /* NateLib.framework */,
+				BD01F0564C2DC96522DAD437B8E0E96A /* Pods_NateLib_Example.framework */,
+				539028AC4C2E966068ED862EF7911C87 /* Pods_NateLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8C2CB718482ACD240320C2286E4C027B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C99B232CCF5662E1EED939723588F5BD /* Products */,
+				E4EE442E68E3BD84A3EF64819082BF8B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4EE442E68E3BD84A3EF64819082BF8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2D7A66679B9262E94150BA5B985102 /* Pods-NateLib_Example */,
+				9E00A1D5FC0DC3B9DEC70570E56F2D7B /* Pods-NateLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7035C9049ACBAD039B1A084CBCEF3203 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B388B408BE280C3A17858BD3903520 /* Pods-NateLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F42CCC8D20044C2A8D9C1B30EB04CBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FA4DDC3BA32F88B46550B7979DB953 /* Pods-NateLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63211DACB2B20841656D77A2715723C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA87F807E43F0FFD0FB75E6B8E52D72 /* NateLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0ACE2909B282695216D495A4707EECF4 /* Pods-NateLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DE95F2D42EB843A430A5CB08BD6378 /* Build configuration list for PBXNativeTarget "Pods-NateLib_Tests" */;
+			buildPhases = (
+				7035C9049ACBAD039B1A084CBCEF3203 /* Headers */,
+				2F17C44E4209F22C640D830C2390B1F0 /* Sources */,
+				AC20FA9AB1130BF8600870386ED5D154 /* Frameworks */,
+				37270AC1B79E5611E2F3632DB181B0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A76A0B35FF76A4F5935E97709EA18FF /* PBXTargetDependency */,
+			);
+			name = "Pods-NateLib_Tests";
+			productName = "Pods-NateLib_Tests";
+			productReference = 539028AC4C2E966068ED862EF7911C87 /* Pods_NateLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0BDDB391A66ED5240F2D327C3CE6DD9 /* Pods-NateLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6ADDA2E2572D21D3E20ABFCEB9CCDE /* Build configuration list for PBXNativeTarget "Pods-NateLib_Example" */;
+			buildPhases = (
+				7F42CCC8D20044C2A8D9C1B30EB04CBF /* Headers */,
+				63D88C909F7A85E3A9F3DD00479688A4 /* Sources */,
+				167F6AB914484BD01EE0433DAE9BBCAD /* Frameworks */,
+				632BFD878B74F28D68E7E8BF0266ED26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C936300767ADAA62CC0DC926AFD324 /* PBXTargetDependency */,
+			);
+			name = "Pods-NateLib_Example";
+			productName = "Pods-NateLib_Example";
+			productReference = BD01F0564C2DC96522DAD437B8E0E96A /* Pods_NateLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D27C1669F6CBEBE9B3EAA787C5BC33EC /* NateLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53D704D1D4C0B63AFADDC53926B6BFF3 /* Build configuration list for PBXNativeTarget "NateLib" */;
+			buildPhases = (
+				C63211DACB2B20841656D77A2715723C /* Headers */,
+				CADD48C8EB06C46DAA2D980603F5A996 /* Sources */,
+				F8B77F545321E7701DE26707F698F8C2 /* Frameworks */,
+				02039F6DD18690CA8CA5566FA4BF9028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NateLib;
+			productName = NateLib;
+			productReference = 5151742B5E84731A849DD42DCE186E2C /* NateLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C99B232CCF5662E1EED939723588F5BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27C1669F6CBEBE9B3EAA787C5BC33EC /* NateLib */,
+				C0BDDB391A66ED5240F2D327C3CE6DD9 /* Pods-NateLib_Example */,
+				0ACE2909B282695216D495A4707EECF4 /* Pods-NateLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02039F6DD18690CA8CA5566FA4BF9028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37270AC1B79E5611E2F3632DB181B0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632BFD878B74F28D68E7E8BF0266ED26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F17C44E4209F22C640D830C2390B1F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9491402B10B2B05099D4BF26CE9C5287 /* Pods-NateLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D88C909F7A85E3A9F3DD00479688A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731551F217ABCEAD80F4836FBAD1DA25 /* Pods-NateLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADD48C8EB06C46DAA2D980603F5A996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B84A6E81EACD8A27E11E019684603 /* NateLib-dummy.m in Sources */,
+				0CE4BA84CA7A6E4605100214C35053CC /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A76A0B35FF76A4F5935E97709EA18FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NateLib_Example";
+			target = C0BDDB391A66ED5240F2D327C3CE6DD9 /* Pods-NateLib_Example */;
+			targetProxy = 5B2773C13941704275506D7CC281A0EF /* PBXContainerItemProxy */;
+		};
+		B4C936300767ADAA62CC0DC926AFD324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NateLib;
+			target = D27C1669F6CBEBE9B3EAA787C5BC33EC /* NateLib */;
+			targetProxy = 7499D1EA0761F49DBE8EDC23A54CE0DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02B0DE7AD514B2C942D0BF2BDEA5B10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9BCDB7519AD3E312A87D0E04E2F2086 /* Pods-NateLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NateLib_Example/Pods-NateLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NateLib_Example/Pods-NateLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D5D38692C4214503E76588EA8249531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FD9B6266275FA4D4087C7DAD521491 /* Pods-NateLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NateLib_Example/Pods-NateLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NateLib_Example/Pods-NateLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D36AD70FC40EB836CCC276414C8D019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C882183993980DA4C0C2D2D50C34F1F /* NateLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NateLib/NateLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NateLib/NateLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NateLib/NateLib.modulemap";
+				PRODUCT_MODULE_NAME = NateLib;
+				PRODUCT_NAME = NateLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B712E1A569775FC3CEBF53C40893CB8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C882183993980DA4C0C2D2D50C34F1F /* NateLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NateLib/NateLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NateLib/NateLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NateLib/NateLib.modulemap";
+				PRODUCT_MODULE_NAME = NateLib;
+				PRODUCT_NAME = NateLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D35178D31A45D5CC0FBDF37285179896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528A4D2182802D277845466A76B68153 /* Pods-NateLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NateLib_Tests/Pods-NateLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NateLib_Tests/Pods-NateLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F86F441DF7427DC9D5B34EAF9852BD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3906505DF7F663F98FC2CB5BC41006C4 /* Pods-NateLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NateLib_Tests/Pods-NateLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NateLib_Tests/Pods-NateLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DE95F2D42EB843A430A5CB08BD6378 /* Build configuration list for PBXNativeTarget "Pods-NateLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86F441DF7427DC9D5B34EAF9852BD8E /* Debug */,
+				D35178D31A45D5CC0FBDF37285179896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6ADDA2E2572D21D3E20ABFCEB9CCDE /* Build configuration list for PBXNativeTarget "Pods-NateLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B0DE7AD514B2C942D0BF2BDEA5B10D /* Debug */,
+				3D5D38692C4214503E76588EA8249531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53D704D1D4C0B63AFADDC53926B6BFF3 /* Build configuration list for PBXNativeTarget "NateLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D36AD70FC40EB836CCC276414C8D019 /* Debug */,
+				B712E1A569775FC3CEBF53C40893CB8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

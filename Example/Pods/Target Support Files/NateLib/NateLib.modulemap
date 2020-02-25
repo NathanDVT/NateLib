@@ -1,0 +1,6 @@
+framework module NateLib {
+  umbrella header "NateLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

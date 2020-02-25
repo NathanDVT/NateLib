@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NateLib_Example' do
+  pod 'NateLib', :path => '../'
+
+  target 'NateLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
